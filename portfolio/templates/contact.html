@@ -1,0 +1,32 @@
+{% extends 'header.html' %}
+{% load static %}
+
+{% block title %}Contact {% endblock %}
+
+{% block Main%}
+<div class="container">
+    <div class="row">
+        <div class=" col-md-6  col-sm-8 col-12 ContactForm">
+         <i class="fa fa-envelope-o fa-3x"></i><span>   Get In Touch.</span>
+            
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                {{ form.as_p }}
+                
+                <button style="margin-left:28%; width:40%; background-color: #ff004f;" class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6  col-sm-4 col-12 ContactInfo" style="margin-top:90px;">
+              <a href="#">  <i class="fa fa-envelope fa-2x"></i><span>mdshaisakhter840@gmail.com.</span></a>
+              <br>
+              <a href="#">  <i class="fa fa-instagram fa-2x"></i><span>@mdshaisakhtar</span></a>
+              <br>
+              <a href="#">  <i class="fa fa-twitter fa-2x"></i><span>@MdShaisakhtar07</span></a>
+
+                </div>
+        </div>
+        </div>
+
+
+{% endblock %}

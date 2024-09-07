@@ -1,0 +1,477 @@
+/* Top Header */
+
+@media only screen and (max-width: 1366px) {
+  .LogoNamediv {
+    width: 22%;
+    border: none;
+  }
+  .logo {
+    width: 6%;
+    border: none;
+    height: 80px;
+  }
+
+  .LogoImage {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+
+  .LogoName {
+    margin-top: 25px;
+    font-size: 1.7vw;
+    font-style: italic;
+    color: white;
+  }
+  .namelink {
+    text-decoration: none;
+  }
+
+  nav {
+    width: 71%;
+    border: none;
+  }
+
+  .nav_link {
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: white;
+  }
+  .nav_link1 {
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Main Div */
+  .SocialLink {
+    margin-top: 120px;
+    height: 300px;
+    width: 12%;
+    border: none;
+  }
+
+  .icons {
+    margin-top: 20px;
+    color: white;
+    margin-left: 7%;
+  }
+  .Description {
+    margin-top: 120px;
+    height: 400px;
+    width: 87%;
+    border: none;
+  }
+  .mainHeading {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .Intro {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .btn1 {
+    width: 13%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ff004f;
+    color: white;
+    border: none;
+    outline: none;
+  }
+
+  .nav_link:hover {
+    color: #ff004f;
+    font-size: 30px;
+  }
+
+  .nav_link1:hover {
+    font-size: 30px;
+  }
+  .icons:hover {
+    color: #ff004f;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .LogoNamediv {
+    width: 84%;
+    border: none;
+  }
+  .logo {
+    width: 14%;
+    height: 80px;
+  }
+  nav {
+    width: 100%;
+    border: none;
+  }
+
+  .LogoImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 10px;
+  }
+
+  .LogoName {
+    margin-top: 25px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+  }
+
+  .nav_link {
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav_link1 {
+    float: right;
+    margin-right: 13%;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .nav_link:hover {
+    color: #ff004f;
+    font-size: 25px;
+  }
+
+  .nav_link1:hover {
+    color: #ff004f;
+    font-size: 25px;
+  }
+
+  /* Main Div */
+  .SocialLink {
+    margin-top: 60px;
+    height: 300px;
+    width: 12%;
+    border: none;
+  }
+
+  .icons {
+    margin-top: 20px;
+    color: white;
+    margin-left: 5%;
+  }
+
+  .Description {
+    margin-top: 60px;
+    height: 400px;
+    width: 87%;
+    border: none;
+  }
+  .mainHeading {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size: 5vw;
+  }
+  .Intro {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  .btn1 {
+    width: 15%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ff004f;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  .icons:hover {
+    color: #ff004f;
+  }
+}
+
+.Navbar1 {
+  display: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #080808;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.span1 {
+  color: #ff004f;
+}
+
+/* End Header */
+
+/* start Main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  border: none;
+  height: 380px;
+  background-color: #080808;
+}
+
+/* About Section */
+.About {
+  margin-top: 30px;
+  background-color: rgba(128, 128, 128, 0.179);
+}
+.AboutImage {
+}
+.AboutImage img {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 300px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 380px) {
+  .AboutImage img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+  }
+}
+
+.AboutContent {
+}
+.AboutContent h2 {
+  text-align: center;
+  font-style: italic;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+    0 0 60px #fff;
+}
+.AboutContent p {
+  color: white;
+}
+.AboutContent button {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ff004f;
+  color: white;
+  border: none;
+  outline: none;
+}
+/* Skill Block */
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill h4 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+.myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.myBar {
+  margin-top: 10px;
+  width: 10%;
+  height: 30px;
+  background-color: #ff004f;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBarBackend {
+  margin-top: 10px;
+  width: 10%;
+  height: 30px;
+  background-color: rgb(107, 202, 107);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+/* Education */
+
+.education {
+  margin-bottom: 10px;
+}
+
+.education h4 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+.verticle {
+  border-left: 6px solid #ff004f;
+  margin-left: 20%;
+  height: 120px;
+}
+.education h5 {
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: white;
+}
+.education p {
+  margin-left: 20%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: whitesmoke;
+}
+
+/* Projects */
+
+.Project h2 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+.ProjectDes {
+  border: 1px solid;
+  background-color: rgba(128, 128, 128, 0.179);
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.Project h1 {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ProjectDes h5 {
+  color: white;
+  text-align: center;
+}
+.ProjectDes p {
+  color: whitesmoke;
+}
+.ProjectDes span {
+  color: #ff004f;
+  font-weight: bold;
+}
+.ProjectDes button {
+  background-color: rgba(128, 128, 128, 0.53);
+  outline: none;
+  color: white;
+  font-size: 1.4vw;
+}
+
+@media only screen and (max-width: 650px) {
+  .ProjectDes button {
+    background-color: rgba(128, 128, 128, 0.53);
+    outline: none;
+    color: white;
+    font-size: 3vw;
+  }
+}
+.btnCode {
+  margin-left: 20%;
+}
+
+.btnCode:hover {
+  background-color: whitesmoke;
+  color: #080808;
+}
+.btnLive:hover {
+  background-color: whitesmoke;
+  color: #080808;
+}
+
+/* Contact*/
+
+.ContactForm {
+  margin: auto;
+}
+.ContactForm span {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ContactForm i {
+  color: white;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  .ContactForm span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ContactForm i {
+    color: white;
+    margin-left: 10px;
+  }
+}
+
+.ContactInfo i {
+  color: white;
+  margin-top: 10px;
+}
+.ContactInfo span {
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .ContactInfo span {
+    color: white;
+    font-size: 4vw;
+    margin: auto;
+  }
+}
+
+.ContactInfo i:hover {
+  color: #ff004f;
+}
+
+.ContactInfo a {
+  text-decoration: none;
+}
+
+/* Footer */
+.Footer {
+  margin-top: 10px;
+  height: 30px;
+  background-color: #2e2c2ca3;
+  width: 100%;
+}
+.Footer_p {
+  color: white;
+  text-align: center;
+}

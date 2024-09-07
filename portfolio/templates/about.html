@@ -1,0 +1,30 @@
+{% extends 'header.html' %}
+{% load static %}
+
+{% block title %}About {% endblock %}
+
+
+{% block Main%}
+<div class="container About" >
+    <div class="row">
+        <div class="col-12 col-sm-6 AboutImage">
+            <img src="{% static 'Image/Profile1.jpg' %}"  class=" image-fluid" alt="AboutImage">
+            </div>
+            <div class="col-12 col-sm-6  AboutContent">
+                <h2>About Me</h2>
+                <br>             
+                 <p>
+                    Hey there! I'm <span style="color:#ff004f;">Md Shais Akhtar</span>. A computer science engineer graduate 
+                    in [2024] ans a Backend end focus Web Developer building Web Application using modern
+                    technology. I'm diving deep into the world of technology. With the years of experience 
+                    in Web Devplopment, especially with the <span style="color:#ff004f;">Python and django</span>.
+    
+                    </br>
+                    When i am not coding. you'll find me playing cricket with friends,  reading 
+                    books and binge-watching web-series and movies. 
+                 
+                </p>
+                </div>
+        </div>
+    </div>
+ {% endblock %}

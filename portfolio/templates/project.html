@@ -1,0 +1,46 @@
+{% extends 'header.html' %}
+
+{% load static %}
+
+{% block title %}Project {% endblock %}
+
+{% block Main%}
+<div class="container Project">
+    <div class="row">
+        <h1>Project's</h1>
+        <div class="col-sm-6 col-md-5 col-lg-3 col-10 ProjectDes">
+            <img class="img-fluid" src="{% static 'Image/ProjectImg/BlogProject.png' %}" >
+            <h5>Personal Blog</h5>
+            <p>It's a personal Blog app where i can write My personal Blog 
+              Related  to Tech and Travels.
+            </p>
+            <p><span> Technology Used: </span> Django, Html/Css, Js, Mysql</p>
+            <a href="{% url 'about' %}"> <button  class="btnLive">Live Demo</button></a>
+            <a href="{% url 'about' %}"> <button  class="btnCode">< /code/ ></button></a>
+          </div>
+  
+          <div class="col-sm-6 col-md-5 col-lg-3 col-10 ProjectDes">
+            <img class="img-fluid" src="{% static 'Image/ProjectImg/BooklyProject.png' %}" >
+            <h5>Bookly A Book Store</h5>
+            <p>In this application user can buy and sell there pre owned Book
+              on affordable price.  
+            </p>
+            <p><span> Technology Used: </span> Django, Html/Css,Bootstrap, Js, Mysql</p>
+            <a href="{% url 'about' %}"> <button  class="btnLive">Live Demo</button></a>
+            <a href="{% url 'about' %}"> <button  class="btnCode">< /code/ ></button></a>
+          </div>
+  
+             <div class="col-sm-6 col-md-5 col-lg-3 col-10 ProjectDes">
+              <img class="img-fluid" src="{% static 'Image/ProjectImg/BlogProject.png' %}" >
+              <h5>Personal Blog</h5>
+              <p>It's a personal Blog app where i can write My personal Blog 
+                Related  to Tech and Travels.
+              </p>
+              <p><span> Technology Used: </span> Django, Html/Css, Js, Mysql</p>
+              <a href="{% url 'about' %}"> <button  class="btnLive">Live Demo</button></a>
+              <a href="{% url 'about' %}"> <button  class="btnCode">< /code/ ></button></a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
